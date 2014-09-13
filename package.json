@@ -1,0 +1,9 @@
+{
+  "name": "facebook-statuses",
+  "version": "1.0.0",
+  "description": "simple app for communicating with facebook api",
+  "author": "Nedeljko Damnjanovic",  
+  "devDependencies": {
+    "gulp": "^3.8.8"
+  }
+}

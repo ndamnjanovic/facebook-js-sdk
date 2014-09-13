@@ -1,0 +1,16 @@
+ <% statuses.forEach(function (status) { %>
+  <div class="status">
+    <div class="message">
+      <%= status.message %>
+    </div>
+    at
+    <div class="date">
+      <%= new Date(status.updated_time) %>
+    </div>
+    <div class="likes">
+      <% if(status.likes) { %>
+      <em>- <%= status.likes.data.length %> likes </em>
+      <% } %>
+    </div>
+  </div>
+<% }); %>

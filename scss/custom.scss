@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+
+  .welcome-message {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .my-fb-login-btn {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+    text-align: center;
+
+    .statuses {
+      width: 100%;
+      margin-top: 20px;
+      text-align: left;
+
+      .status {
+        width: 50%;
+        margin: 0 auto;
+
+        .message {
+          display: inline-block;
+          font-size: 16px;
+          font-weight: bold;
+        }
+
+        .date {
+          display: inline-block;
+        }
+
+        .likes {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
